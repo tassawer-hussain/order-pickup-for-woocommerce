@@ -1,0 +1,37 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.cdop-row select {
+    padding: 10px;
+	border: 1px solid #eeeeee;
+}
+
+@media only screen and ( max-width: 460px) {
+	p.cdop-row {
+		width: 100% !important;
+	}
+}
+#cd_radio_choice_field {
+	margin-bottom: 0px !important;
+}
+#cd_radio_choice_field .woocommerce-input-wrapper {
+	float: left;
+    clear: none;
+}
+#cd_radio_choice_field input[name="cd_radio_choice"]{
+	float: left;
+    clear: none;
+    margin: 8px 0 0 2px;
+}
+#cd_radio_choice_field label{
+	display: block !important;
+    padding: 0px 0px 0px 20px;
+	margin: 0;
+	line-height: 1.75;
+}
+
+#cd_radio_choice_other_field {
+	display: none;
+}
